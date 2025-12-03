@@ -4,98 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hitarth Shah | Portfolio</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-      color: #333;
-    }
-
-    header {
-      background: linear-gradient(to right, #6a11cb, #2575fc);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    nav {
-      margin-top: 1rem;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      border-bottom: 2px solid #ffc107;
-    }
-
-    section {
-      padding: 3rem 1.5rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #6a11cb;
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    .projects, .skills, .achievements {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 15px;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    footer {
-      background-color: #20232a;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 2rem;
-    }
-
-    .contact-link {
-      background-color: #2575fc;
-      color: white;
-      padding: 0.6rem 1.2rem;
-      border-radius: 8px;
-      display: inline-block;
-      margin-top: 1rem;
-      text-decoration: none;
-    }
-
-    .contact-link:hover {
-      background-color: #1a5edc;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -122,32 +31,31 @@
     </p>
   </section>
 
-<section id="subjects">
-  <h2>Information Technology Subjects</h2>
-  <div class="skills">
-    <div class="card">
-      <h3>Object-Oriented Programming (OOP)</h3>
-      <p>Well-versed with principles like inheritance, polymorphism, encapsulation, and abstraction. Implemented concepts in Java.</p>
+  <section id="subjects">
+    <h2>Information Technology Subjects</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Object-Oriented Programming (OOP)</h3>
+        <p>Well-versed with principles like inheritance, polymorphism, encapsulation, and abstraction. Implemented concepts in Java.</p>
+      </div>
+      <div class="card">
+        <h3>Database Management Systems (DBMS)</h3>
+        <p>Strong understanding of relational databases, SQL queries, normalization, indexing, and ER models.</p>
+      </div>
+      <div class="card">
+        <h3>Operating Systems (OS)</h3>
+        <p>Knowledge of process scheduling, memory management, multithreading, and deadlock handling.</p>
+      </div>
+      <div class="card">
+        <h3>Computer Networks (CN)</h3>
+        <p>Basic concepts of OSI & TCP/IP models, routing, IP addressing, HTTP/HTTPS, and DNS protocols.</p>
+      </div>
+      <div class="card">
+        <h3>Data Structures (DS)</h3>
+        <p>Hands-on with arrays, linked lists, stacks, queues, trees, graphs, and recursion. Applied extensively in problem-solving on LeetCode.</p>
+      </div>
     </div>
-    <div class="card">
-      <h3>Database Management Systems (DBMS)</h3>
-      <p>Strong understanding of relational databases, SQL queries, normalization, indexing, and ER models.</p>
-    </div>
-    <div class="card">
-      <h3>Operating Systems (OS)</h3>
-      <p>Knowledge of process scheduling, memory management, multithreading, and deadlock handling.</p>
-    </div>
-    <div class="card">
-      <h3>Computer Networks (CN)</h3>
-      <p>Basic concepts of OSI & TCP/IP models, routing, IP addressing, HTTP/HTTPS, and DNS protocols.</p>
-    </div>
-    <div class="card">
-      <h3>Data Structures(DS)</h3>
-      <p>Hands-on with arrays, linked lists, stacks, queues, trees, graphs, and recursion. Applied extensively in problem-solving on LeetCode.</p>
-    </div>
-  </div>
-</section>
-
+  </section>
 
   <section id="projects">
     <h2>Projects</h2>
@@ -160,9 +68,9 @@
         <h3>Skin Disease Detection</h3>
         <p>It takes a photo and detects skin disease using machine learning.</p>
       </div>
-       <div class="card">
-        <h3>Spider:AI Agent</h3>
-        <p>SPIDER is a voice-activated AI agent designed to perform intelligent tasks on the desktop, such as opening applications, writing notes in Notepad, fetching information, and generating AI-powered content — all through natural voice commands. </p>
+      <div class="card">
+        <h3>Spider: AI Agent</h3>
+        <p>SPIDER is a voice-activated AI agent designed to perform intelligent tasks on the desktop.</p>
       </div>
     </div>
   </section>
@@ -182,7 +90,7 @@
     <h2>Achievements</h2>
     <div class="achievements">
       <div class="card">
-        <h3>300+ LeetCode Problems Solved</h3>
+        <h3>400+ LeetCode Problems Solved</h3>
         <p>Strengthened algorithmic and problem-solving skills through consistent practice.</p>
       </div>
       <div class="card">
@@ -195,10 +103,10 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Want to reach me? Click below :</p>
-    <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=hitarthshah2211@gmail.com" target="_blank">
+    <a class="contact-link" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hitarthshah2211@gmail.com"  target="_blank">
       Email
     </a>
-      <a class="contact-link" href="https://www.linkedin.com/in/hitarth-shah-410b16376/" target="_blank">
+    <a class="contact-link" href="https://www.linkedin.com/in/hitarth-shah-410b16376/" target="_blank">
       Linkedin
     </a>
   </section>
